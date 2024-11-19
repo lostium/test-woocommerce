@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e0ad086aea7844d1272ab6f515e5ada",
+    "content-hash": "f699532495882f0a6b2f7156f4a36330",
     "packages": [
         {
             "name": "composer/installers",
@@ -1088,6 +1088,42 @@
             "time": "2024-07-20T21:52:34+00:00"
         },
         {
+            "name": "wpackagist-plugin/seur",
+            "version": "2.2.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seur/",
+                "reference": "tags/2.2.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seur.2.2.17.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seur/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "9.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/9.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.9.4.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
             "name": "wpackagist-theme/twentytwentyfive",
             "version": "1.0",
             "source": {
@@ -1613,6 +1649,6 @@
     "platform": {
         "php": ">=8.0"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
