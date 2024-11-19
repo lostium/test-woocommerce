@@ -1,0 +1,17 @@
+# Created by trellis-cli v1.13.0
+# Documentation: https://roots.io/trellis/docs/vault/
+
+vault_mysql_root_password: UXLsbDV9vbQBnM43V2V940scAuAG3ukMGCIcloo69u2aCPr9qD4ASfCxPWgupV63
+vault_wordpress_sites:
+  test-woocommerce.lostium.com:
+    admin_password: kmU8k6lJz26rP48RgIcfLv8VuCvMeLCAMLoo6tGf6o7UnavikNGSaOlIG5ZpV3kM
+    env:
+      db_password: lrs2gqTTxAD9M4lpKFUbMxklVLgZD2QIM6KGUXDCRlmizuYqNXhNq2CDfha0Aaef
+      auth_key: Ybp2RkCnAKsGGeOeZ7MI8OA7nViouCYcNEvPZ5CUnhVuPtX7XKkpzhe5ZE6vHpyE
+      secure_auth_key: cZGzXvlHXmoVbe7JAgQO9GwpYhCYfaKIJigMl56ypt4jN5CBUyhNT9AwWJHlT4OO
+      logged_in_key: ZNkQxHRqWCKDqhB5lbkdbTdfOGtwn3dmDU5yml14AYnHqCN1QJfNvyJnc9ReO3md
+      nonce_key: 62UndY6BVOJse07JzUTFKvFc1YpKPMrfXVzK31fcUVjNrJmtwMQfpQOnTfqAVG5G
+      auth_salt: fbIMtnR9CIT84oSyKral8jWfqQITZV6d8Tn3UYT6EhjflF4VBpgtPTytV8XJ9O5x
+      secure_auth_salt: 5OgImbr2X5na7g8Cdf7aS09bzlLsKGWnVKgQ0pvH1t3z7Y50tVjJpGIrDQxm742a
+      logged_in_salt: Ygxrfclb6coNT0a8EYQbiOVpOXO82UJUdRZf3GVNZaX9eTUfj3B8hcz5nEflN8Il
+      nonce_salt: Qcv1Vewp1PR4omJqvkJlgQLZespFJcbyu5HdXHNVyr99s7zwH7StySXC3ucRbPiG
