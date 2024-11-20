@@ -42,7 +42,8 @@
     "roots/wp-password-bcrypt": "1.2.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wpackagist-plugin/woocommerce": "^9.4",
-    "wpackagist-plugin/seur": "^2.2"
+    "wpackagist-plugin/seur": "^2.2",
+    "wpackagist-plugin/aryo-activity-log": "^2.11"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
