@@ -16,6 +16,10 @@ function restore_seur_plugin() {
     echo "Ejecutando: wp plugin list\n";
     exec('cd ' . $project_dir . ' && wp plugin list --format=yaml 2>&1', $wp_output, $wp_return);
     echo implode("\n", $wp_output) . "\n\n";
+    
+    // Añadir enlace para reactivar el plugin con número aleatorio
+    $random = rand(1000, 9999);
+    echo "<strong>El plugin ha sido desactivado, puedes reactivarlo aquí: <a href='/wp/wp-admin/plugins.php?r={$random}'>Gestionar plugins</a></strong>\n";
 }
 
 // Ejecutar la función
