@@ -26,7 +26,7 @@ fail2ban_services_custom:
     logpath: "{{ www_root }}/**/logs/access.log"
   - name: wordpress_wp_login
     filter: wordpress-wp-login
-    enabled: "true"
+    enabled: "false"
     port: http,https
     logpath: "{{ www_root }}/**/logs/access.log"
 
