@@ -7,7 +7,6 @@ wordpress_sites:
     - canonical: test-woocommerce.lostium.test
       redirects: []
     local_path: ../site
-    admin_email: admin@test-woocommerce.lostium.test
     multisite:
       enabled: false
     ssl:
@@ -15,3 +14,5 @@ wordpress_sites:
       provider: self-signed
     cache:
       enabled: false
+    admin_user: lostium
+    admin_email: found@lostium.com

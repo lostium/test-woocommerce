@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab2d82f73cb27a9a72a584b1572eaa19",
+    "content-hash": "6798c33abc3e81c6a5fd6a0481980aac",
     "packages": [
         {
             "name": "composer/installers",
@@ -1177,24 +1177,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-fail2ban",
-            "version": "5.3.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
-                "reference": "tags/5.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.5.3.4.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-fail2ban/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfive",
